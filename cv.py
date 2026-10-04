@@ -2,7 +2,7 @@
 """Builds role-specific one-page CVs (HTML -> PDF via headless Chrome). Run: python3 cv.py"""
 import html, os, subprocess, shutil
 e = html.escape
-PORTFOLIO = None   # e.g. "khalil.dev" once a domain exists
+PORTFOLIO = "portfolio.khalilrezgui0.workers.dev"
 HEADER = ["Tunis, Tunisia (UTC+1)", "+216 92 428 859", "khalilrezgui0@gmail.com", "linkedin.com/in/khalil-rezgui", "github.com/khalilrez"]
 SUB = "Italian citizen: EU work authorization, no sponsorship needed · Remote since 2024 with a Paris-based team"
 
